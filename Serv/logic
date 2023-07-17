@@ -1,0 +1,95 @@
+/*
+    #math.pow
+        double x = 5;  
+        double y = 4;  
+        //returns 5 power of 4 i.e. 5*5*5*5  
+        System.out.println(Math.pow(x, y));  
+    ======================================================
+
+    To convert negative number to positive number (this is called absolute value), uses Math.abs()
+
+    ======================================================
+
+    int time = 20;
+    String result = (time < 18) ? "Good day." : "Good evening.";
+    System.out.println(result);
+    =======================================================
+
+    String txt = "Hello World";
+    System.out.println(txt.toUpperCase());   // Outputs "HELLO WORLD"
+    System.out.println(txt.toLowerCase());   // Outputs "hello world"
+
+    ========================================================
+
+    String txt = "Please locate where 'locate' occurs!";
+    System.out.println(txt.indexOf("locate")); // Outputs 7
+
+    ========================================================
+
+    How next() vs nextLine() process sample text
+    i/p  Programmers love Java!
+
+    next()-->Programmers
+    nextLine()-->Programmers love Java!
+
+    =========================================================
+    ArrayList<String> list=new ArrayList<String>();//Creating arraylist    
+      list.add("Mango");//Adding object in arraylist    
+      list.add("Apple");    
+      list.add("Banana");    
+      list.add("Grapes");    
+      //Printing the arraylist object   
+      System.out.println(list);  
+
+    array String without size 
+
+      Scanner obj = new Scanner(System.in);
+        ArrayList<String> arr=new ArrayList<String>();
+        String a=obj.nextLine();
+        arr.add(a);
+        System.out.println(arr);
+
+    with size
+
+        int n=obj.nextInt();
+        for(int i=0;i<n;i++)
+        {
+            arr.add(obj.nextLine());
+        }
+
+    To remove squre brackets convert into string 
+    
+        System.out.println(arr.toString().replace("[","").replace("]",""));
+    =========================================================
+    UPPER CASE SPLIT
+    
+    To split a string by capital letters, we will use (?=\\p{Lu}) regex. We will pass this regex in Java String split() method as shown in the following program.
+
+    \p{Lu} is a shorthand for \p{Uppercase Letter}. This regex matches uppercase letter.
+    Similarly \p{Ll} is a shorthand for \p{Lowercase Letter}. This regex matches lowercase letter.
+
+    String str = "IWantToSplitThisString";
+     String[] strArray = str.split("(?=\\p{Lu})");
+
+    +===========================================================================================
+    REGEX
+
+    regular expression
+    java.util.regex
+    1) pattern - Compiled representation of regular expression
+    2) Matcher - Interprets the pattern
+    3) PatternSyntaxExpression - UncheckedException
+
+    =============================================================================================
+    Write a program to find the double of the given number without using arithmetic operator
+    
+    https://www.programiz.com/java-programming/bitwise-operators
+
+    ============================================================================================
+    char array without declaring String
+
+    char[] arr1 = obj.nextLine().toCharArray();
+
+    ============================================================================================
+    
+*/
