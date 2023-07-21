@@ -16,11 +16,11 @@ public class AdjNum
     {
         for(int j=i+1;j<a;j++)
         {
-            if(arr[i]<arr[j])
-            {
+            
                 System.out.println(arr[i]+"-->"+arr[j]);
                 break;
-            }
+            
+            
         }
     }
     System.out.println(arr[a-1]+"-->-1");

@@ -1,9 +1,6 @@
-package Array;
 import java.util.*;
 
-//Take 10 integer inputs from user and store them in an array
-// Now, copy all the elements in an another array but in reverse order.
-public class array4 {
+public class HighSelling {
     public static void main(String args[])
     {
     Scanner obj = new Scanner(System.in);
@@ -14,11 +11,10 @@ public class array4 {
         {
             arr[i]=obj.nextInt();
         }
+
+    Arrays.sort(arr);
     
-    for(int i=a-1;i>=0;i--)
-    {
-        System.out.print(arr[i]+" ");
-    }
+    System.out.println(arr[a-1]+arr[a-2]);
 
 
     }
