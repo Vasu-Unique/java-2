@@ -10,7 +10,7 @@ public class Doctor {
         System.out.print("over");
         break;
      }
-      System.out.print(b);4
+      System.out.print(b);
     }
     
 
