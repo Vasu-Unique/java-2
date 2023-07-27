@@ -32,6 +32,12 @@
     next()-->Programmers
     nextLine()-->Programmers love Java!
 
+    =============================================================
+    String Buffer VS String Builder
+
+    String buffer -> Synchronized so slow process
+    String builder -> Non Synchronized so fast process
+
     =========================================================
     ArrayList<String> list=new ArrayList<String>();//Creating arraylist    
       list.add("Mango");//Adding object in arraylist    
