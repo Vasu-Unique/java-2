@@ -1,7 +1,7 @@
 //Create a new String containing only uppercase characters
 package String;
 import java.util.*;
-public class String4 {
+public class FindLetter {
     public static void main(String args[])
     {
         Scanner obj=new Scanner(System.in);

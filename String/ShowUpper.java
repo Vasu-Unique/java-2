@@ -1,17 +1,19 @@
+//Create a new String containing only uppercase characters
 package String;
-import java.util.*;
-public class String2 {
+import java.util.Scanner;
+public class ShowUpper {
     public static void main(String args[])
     {
         Scanner obj=new Scanner(System.in);
         String s=obj.nextLine();
+        String st="";
 
         for(int i=0;i<s.length();i++)
         {
             char c=s.charAt(i);
-            if(Character.isUpperCase(c)) //Character.isLowerCase(c),Character.isDigit(c)
+            if(Character.isUpperCase(c)) 
             {
-                System.out.println(c);
+                st=st+c;
             }
         }
     }

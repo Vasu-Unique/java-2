@@ -1,7 +1,7 @@
 //show firt digit and alphabets
 package String;
 import java.util.*;
-public class String6 {
+public class SeparateDigitLetter {
     public static void main(String args[])
     {
         Scanner obj=new Scanner(System.in);

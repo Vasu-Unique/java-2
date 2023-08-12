@@ -1,7 +1,7 @@
 //Write a program Uppercae To lowerCase String
 package String;
 import java.util.*;
-public class String8 {
+public class LowHigher {
     public static void main(String args[])
     {
         Scanner obj=new Scanner(System.in);
