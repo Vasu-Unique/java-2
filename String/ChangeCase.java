@@ -1,32 +1,30 @@
-//To find largest word in a String  
 package String;
 import java.util.*;
-public class LongestWord {
+public class ChangeCase {
     public static void main(String args[])
     {
-        Scanner obj=new Scanner (System.in);
+        Scanner obj=new Scanner(System.in);
         String a=obj.nextLine();
-        String w="";
-        String lw="";
         a=a+" ";
+        String w="",ns="";
 
-
+        
         for(int i=0;i<a.length();i++)
         {
             char c=a.charAt(i);
             if(c!=' ')
             {
-                w=w+c;
+                w+=c;
             }
             else
             {
-                if(w.length()>lw.length()) //if(w.equals("RED"))
-                {
-                    lw=w;
-                }
+                if(w.length()%2==0)
+                    ns=ns+w.toUpperCase()+" ";
+                else
+                    ns=ns+w.toLowerCase()+" ";
                 w="";
             }
         }
-        System.out.println(lw);
+        System.out.println(ns);
     }
 }

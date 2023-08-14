@@ -95,9 +95,20 @@
     char array without declaring String
 
     char[] arr1 = obj.nextLine().toCharArray();
-
     ============================================================================================
+    String
+         
+        
+    char c=s.charAt(i);
+            if(!Character.isLetter(c))
+            if(!Character.isWhitespace(c))
+            if(Character.isDigit(c)) //Character.isLowerCase(c),Character.isDigit(c)
+            {
+                System.out.println(c);
+            }
+
     SubString
+
     System.out.println(w.substring(0,2));
     if(w.startsWith("R"))
     if(w.endsWith("R"))
