@@ -44,7 +44,6 @@ return null;
 
 public static void main(String[] args) {
 final String secretKey = "annaUniversity";
-
 String originalString = "www.annauniv.edu";
 String encryptedString = Ex4.encrypt(originalString, secretKey);
 String decryptedString = Ex4.decrypt(encryptedString, secretKey);

@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Ex4",
+            "request": "launch",
+            "mainClass": "Security_Lab.Ex4",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "ReverseNum",
+            "request": "launch",
+            "mainClass": "ReverseNum",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "DeciToBinary",
+            "request": "launch",
+            "mainClass": "DeciToBinary",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open Ex5.html",
+            "file": "d:\\VS Code\\Java\\Security_Lab\\Ex5.html"
+        }
+    ]
+}
