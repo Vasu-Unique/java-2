@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MissingLetter",
+            "request": "launch",
+            "mainClass": "MissingLetter",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
             "name": "Ex4",
             "request": "launch",
             "mainClass": "Security_Lab.Ex4",
