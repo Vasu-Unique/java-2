@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Swap2Num",
+            "request": "launch",
+            "mainClass": "TCS.Swap2Num",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "RotationString",
+            "request": "launch",
+            "mainClass": "TCS.RotationString",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "Practice",
+            "request": "launch",
+            "mainClass": "Practice",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
             "name": "MersennePrime",
             "request": "launch",
             "mainClass": "MersennePrime",

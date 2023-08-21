@@ -15,11 +15,6 @@ public class q37HighAdd {
         }
         Arrays.sort(arr);
 
-            System.out.println(arr[a-1]+arr[a-2]);
-
-
-      
-         
-        
+            System.out.println(arr[a-1]+arr[a-2]);  
     }
 }
