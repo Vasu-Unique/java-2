@@ -1,28 +1,31 @@
-import java.io.*;
 import java.util.*;
 public class PrimeNumber{
-   static long maxPrimeFactors( long val){
-      long max_prime = -1;
-      while (val % 2 == 0) {
-         max_prime = 2;
-         val >>= 1;
+   public static void main ( String args[])
+   {
+      Scanner obj=new Scanner(System.in);
+      int a=obj.nextInt();
+      int b=obj.nextInt();
+      if(a==1)
+      {
+         a++;
       }
-      for (int i = 3; i <= Math.sqrt(val); i += 2){
-         while (val % i == 0){
-            max_prime = i;
-            val = val / i;
+
+      for(int i=a;i<=b;i++)
+      {
+      boolean flag=true;
+      for(int j=3;j<=Math.abs(i/2);j++)
+      {
+         
+         if(i%j==0)
+         {
+            flag=false;
+            break;
          }
       }
-      if (val > 2)
-      max_prime = val;
-      return max_prime;
+      if(flag)
+      {
+         System.out.print(i+" ");
+      }
    }
-   public static void main(String[] args){
-      int val = 148592;
-      System.out.println("The largest prime factor of 148592 is ");
-      System.out.println(maxPrimeFactors(val));
-      val = 890654;
-      System.out.println("The largest prime factor of 890654 is ");
-      System.out.println(maxPrimeFactors(val));
    }
 }

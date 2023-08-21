@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MersennePrime",
+            "request": "launch",
+            "mainClass": "MersennePrime",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "PetrolDiesel",
+            "request": "launch",
+            "mainClass": "PetrolDiesel",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "RowMax",
+            "request": "launch",
+            "mainClass": "RowMax",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "Tim",
+            "request": "launch",
+            "mainClass": "Tim",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "Occurence",
+            "request": "launch",
+            "mainClass": "Occurence",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "q40Prime",
+            "request": "launch",
+            "mainClass": "TCS.q40Prime",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumber",
+            "request": "launch",
+            "mainClass": "PrimeNumber",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "q39SumNum",
+            "request": "launch",
+            "mainClass": "TCS.q39SumNum",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "q38CountSplChar",
+            "request": "launch",
+            "mainClass": "TCS.q38CountSplChar",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "q37HighAdd",
+            "request": "launch",
+            "mainClass": "TCS.q37HighAdd",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "q34NegCount",
+            "request": "launch",
+            "mainClass": "TCS.q34NegCount",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "q32Replace",
+            "request": "launch",
+            "mainClass": "TCS.q32Replace",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "q31SortPosition",
+            "request": "launch",
+            "mainClass": "TCS.q31SortPosition",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
             "name": "MissingLetter",
             "request": "launch",
             "mainClass": "MissingLetter",
