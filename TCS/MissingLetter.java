@@ -12,7 +12,7 @@ public class MissingLetter {
         {
             if (a.charAt(i) != b.charAt(i)) {
                 System.out.print(b.charAt(i));
-            if(a.charAt(i)==b.charAt('\0'))
+            if(a.charAt(i)==b.charAt(" "));
             {
                 System.out.print(a.charAt(i));
             }
