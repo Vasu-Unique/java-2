@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FactorialLongest",
+            "request": "launch",
+            "mainClass": "FactorialLongest",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "String_Compression",
+            "request": "launch",
+            "mainClass": "String_Compression",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "Arrow",
+            "request": "launch",
+            "mainClass": "Arrow",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "ArrowCombiner",
+            "request": "launch",
+            "mainClass": "ArrowCombiner",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "InvertedRightAngledTriangles",
+            "request": "launch",
+            "mainClass": "InvertedRightAngledTriangles",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "Seats",
+            "request": "launch",
+            "mainClass": "Seats",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "ChemicalFactory",
+            "request": "launch",
+            "mainClass": "ChemicalFactory",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
             "name": "Swap2Num",
             "request": "launch",
             "mainClass": "TCS.Swap2Num",

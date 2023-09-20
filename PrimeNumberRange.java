@@ -1,5 +1,5 @@
 import java.util.*;
-public class PrimeNumber{
+public class PrimeNumberRange{
    public static void main ( String args[])
    {
       Scanner obj=new Scanner(System.in);
@@ -24,6 +24,7 @@ public class PrimeNumber{
       }
       if(flag)
       {
+
          System.out.print(i+" ");
       }
    }

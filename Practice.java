@@ -2,19 +2,25 @@ import java.util.*;
 public class Practice {
     public static void main(String args[])
     {
-        Scanner obj=new Scanner(System.in);
-        String  a="vasu%k^&uni@que";
+        String a="jimdfjimsdfjimadjim";
+        String b="jim";
+        char arr[]=a.toCharArray();
         String res="";
+        int count=0;
 
-        for(int i=0;i<a.length();i++)
+        for(int i=0;i<a.length()-b.length();i++)
         {
-            char c=a.charAt(i);
-            if(!Character.isLetterOrDigit(c))
+            for(int j=i;j<i+b.length();j++)
             {
-                res=res+c;
+                res=res+arr[j];
             }
+            if(res.equals(b))
+            {
+                count++;
+            }
+            res="";
         }
-        System.out.println(res);
+        System.out.println(count);
 
     }
 
