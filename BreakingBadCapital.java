@@ -1,38 +1,25 @@
 import java.util.*;
-public class BreakingBadCapital {
+class BreakingBadCapital {
     public static void main(String args[])
     {
-        Scanner obj=new Scanner(System.in);
-        String a="Breaking Bad";
-        // String[] b=a.split(" ");
-        // String c=b[0];
-        // String d=b[1];
-        // int max= Math.max(c.length(),d.length());
+        Scanner sc=new Scanner(System.in);
+        String a=sc.nextLine();
+        String[] b=a.split("(?=[A-Z])");
+        String c=b[0];
+        String d=b[1];
+        int max= Math.max(c.length(),d.length());
 
-        // for(int i=65;i<=90;i++)
-        // {
-        //     System.out.println((char) i);
-            
-        // }
-            char ch;
-            char[] arr;
-            arr = new char[];
-        char[] brr;
-        ArrayList.de
-        int i=0,j=0;
-        int flag=0;
-        for(int k=0;k<a.length();k++)
+        for(int i=0;i<max;i++)
         {
-            ch=a.charAt(k);
-            if((int)ch>64&&(int)ch<91)
+            for(int j=0;j<=i && j!=c.length();j++)
             {
-                flag++;
+                System.out.print(c.charAt(j));
             }
-            if(flag==1)
+            for(int k=0;k<=i && k!=d.length();k++)
             {
-                arr[i]=a.charAt(k);
-                i++;
+                System.out.print(d.charAt(k));
             }
-        }
-    }
+        System.out.println();
+        } 
+    }  
 }

@@ -121,5 +121,39 @@
             System.out.println("The highest score is " + highest_marks);
     ===========================================================================================
 
+    Leap Year
+
+    4 year ku 1 time varum. feb 29 vantha athu leap year(366)
+    non leap year(365.2425) days
+    int year = 2020;
+     if (year % 400 == 0) //leap
+       
+     else if (year % 4 == 0 && year % 100 != 0) //leap
+      
+     else  //non leap
+
+     ==========================================================================================
+
+     LCM and GCD
+
+     int n1=obj.nextInt();
+        int n2=obj.nextInt();
+        int gcd=0;
+        
+        for(int i=1;i<=n1&&i<=n2;i++)
+        {
+            if(n1%i==0&&n2%i==0)
+            {
+                gcd=i;
+            }
+        }
+        
+        System.out.print(n1*n2/gcd+" "); //lcm
+        System.out.print(gcd); //gcd
+
+    ===============================================================================================
+         
+
+
 
 */

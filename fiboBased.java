@@ -33,9 +33,10 @@ public class fiboBased {
         {    
          n3=n1+n2; 
          n1=n2;    
-         n2=n3;    
+         n2=n3; 
+         System.out.print(n3+" ");   
         }
-        System.out.print(n3);
+        //System.out.println(n3);
 
             
 
