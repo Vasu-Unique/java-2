@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StackQueue",
+            "request": "launch",
+            "mainClass": "TCS.StackQueue",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "pa1",
+            "request": "launch",
+            "mainClass": "pa1",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
             "name": "Xpattern",
             "request": "launch",
             "mainClass": "Hollow_pattern.Xpattern",
