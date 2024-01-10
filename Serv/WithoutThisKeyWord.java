@@ -1,5 +1,5 @@
 //without using Thiskeyword
-
+import java.util.*;
 class ThisDemo
 {
     int n1,n2;

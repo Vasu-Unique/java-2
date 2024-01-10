@@ -10,6 +10,7 @@ public class factorial {
     {
         count=count*i;
     }
+    System.out.println(count);
 
    /*  if(count%2!=0)
     {

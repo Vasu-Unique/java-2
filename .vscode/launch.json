@@ -6,6 +6,104 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WithoutPowerOperator",
+            "request": "launch",
+            "mainClass": "WithoutPowerOperator",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "WithoutSubtractOperator",
+            "request": "launch",
+            "mainClass": "WithoutSubtractOperator",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "WithoutMultiOperator",
+            "request": "launch",
+            "mainClass": "WithoutMultiOperator",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "WithoutPlusOperator",
+            "request": "launch",
+            "mainClass": "WithoutPlusOperator",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "ThisKeyword",
+            "request": "launch",
+            "mainClass": "ThisKeyword",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "OverRiding",
+            "request": "launch",
+            "mainClass": "Oop.Polymorphism.OverRiding",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "MethodOverriding",
+            "request": "launch",
+            "mainClass": "Oop.Polymorphism.MethodOverriding",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "OverRiding",
+            "request": "launch",
+            "mainClass": "OverRiding",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Oop.Polymorphism.Test",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "MethodOverloading",
+            "request": "launch",
+            "mainClass": "Oop.Polymorphism.MethodOverloading",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "attri1",
+            "request": "launch",
+            "mainClass": "Oop.class_attributes.attri1",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "ReverseAnswer",
+            "request": "launch",
+            "mainClass": "ReverseAnswer",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "TempSorting",
+            "request": "launch",
+            "mainClass": "TempSorting",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
             "name": "StackQueue",
             "request": "launch",
             "mainClass": "TCS.StackQueue",
