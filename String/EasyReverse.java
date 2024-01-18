@@ -15,3 +15,4 @@ public class EasyReverse {
         System.out.println(rev);
     }
 }
+
