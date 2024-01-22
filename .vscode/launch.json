@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PyramidNormal",
+            "request": "launch",
+            "mainClass": "Star_patterns.PyramidNormal",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "Pyramid",
+            "request": "launch",
+            "mainClass": "Star_patterns.Pyramid",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "NumReverse",
+            "request": "launch",
+            "mainClass": "NumberPattern.NumReverse",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "centerZero",
+            "request": "launch",
+            "mainClass": "NumberPattern.centerZero",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "Car$SuperKeyWord",
+            "request": "launch",
+            "mainClass": "Oop.SuperKeyWord.Car$SuperKeyWord",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicate",
+            "request": "launch",
+            "mainClass": "RemoveDuplicate",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListInsert",
+            "request": "launch",
+            "mainClass": "Collections.List.ArrayListInsert",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListDemo",
+            "request": "launch",
+            "mainClass": "Collections.List.ArrayListDemo",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
             "name": "WithoutPowerOperator",
             "request": "launch",
             "mainClass": "WithoutPowerOperator",

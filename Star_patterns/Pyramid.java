@@ -1,5 +1,9 @@
 package Star_patterns;
-
+//           * 
+//         * * *
+//       * * * * *
+//     * * * * * * *
+//   * * * * * * * * *
 public class Pyramid {
     public static void main(String args[])
     {
