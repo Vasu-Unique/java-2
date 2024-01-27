@@ -1,4 +1,11 @@
 package Star_patterns;
+// 5
+
+// *       * 
+// * *   * *
+// *   *   *
+// *       *
+// *       *
 import java.util.*;
 public class mpattern {
     public static void main(String args[])

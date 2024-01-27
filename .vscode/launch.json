@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HashOccurenceCount",
+            "request": "launch",
+            "mainClass": "HashOccurenceCount",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "HashFiboPattern",
+            "request": "launch",
+            "mainClass": "HashFiboPattern",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "HashBreakingBadCapital",
+            "request": "launch",
+            "mainClass": "HashBreakingBadCapital",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "FindNumber1",
+            "request": "launch",
+            "mainClass": "FindNumber1",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "HashCount",
+            "request": "launch",
+            "mainClass": "HashCount",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "ThisKeyword",
+            "request": "launch",
+            "mainClass": "Oop.ThisKeyword",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "Constructor",
+            "request": "launch",
+            "mainClass": "Oop.Constructor",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "SuperKeyWord",
+            "request": "launch",
+            "mainClass": "Oop.SuperKeyWord.SuperKeyWord",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "Sample",
+            "request": "launch",
+            "mainClass": "ArrayList.Sample",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "FullPyramid",
+            "request": "launch",
+            "mainClass": "NumberPattern.FullPyramid",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "IndexValue",
+            "request": "launch",
+            "mainClass": "IndexValue",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "mpattern",
+            "request": "launch",
+            "mainClass": "Star_patterns.mpattern",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
             "name": "PyramidNormal",
             "request": "launch",
             "mainClass": "Star_patterns.PyramidNormal",
