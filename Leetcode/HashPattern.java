@@ -7,11 +7,9 @@ OUTPUT:
     5e5e5
     f6f6f6
 */
+package Leetcode;
 
-
-    import java.util.*;
-
-    
+import java.util.*;
 class HashPattern
 {
     public static void main(String args[])
