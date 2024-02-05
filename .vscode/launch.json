@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PerfectNumber",
+            "request": "launch",
+            "mainClass": "PerfectNumber",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "Armstrong",
+            "request": "launch",
+            "mainClass": "Armstrong",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "PrabaQ2",
+            "request": "launch",
+            "mainClass": "PrabaQ2",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "PrabaPen",
+            "request": "launch",
+            "mainClass": "PrabaPen",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "geeks",
+            "request": "launch",
+            "mainClass": "geeks",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "SubarrayLengthSumDistinct",
+            "request": "launch",
+            "mainClass": "SubarrayLengthSumDistinct",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "SubArray",
+            "request": "launch",
+            "mainClass": "SubArray",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "HashAgile",
+            "request": "launch",
+            "mainClass": "HashAgile",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "NUmberPattern",
+            "request": "launch",
+            "mainClass": "NUmberPattern",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
             "name": "HashPattern",
             "request": "launch",
             "mainClass": "Leetcode.HashPattern",
