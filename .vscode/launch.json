@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubArrayofArray",
+            "request": "launch",
+            "mainClass": "SubArrayofArray",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "OcuurenceNum",
+            "request": "launch",
+            "mainClass": "OcuurenceNum",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "HashMapExample",
+            "request": "launch",
+            "mainClass": "Collections.HashMapExample",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "HashMap",
+            "request": "launch",
+            "mainClass": "Collections.HashMap",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
             "name": "ArrayListContains",
             "request": "launch",
             "mainClass": "Collections.ArrayListContains",

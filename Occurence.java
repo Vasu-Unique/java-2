@@ -15,6 +15,7 @@ public class Occurence {
 				}
 			}
 		}
+		
 		for(int i=0;i<s.length;i++) {
 			if(s[i]!='@') {
 				System.out.print(s[i]);
