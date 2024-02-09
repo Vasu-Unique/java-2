@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayListContains",
+            "request": "launch",
+            "mainClass": "Collections.ArrayListContains",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "HashSetTraverse",
+            "request": "launch",
+            "mainClass": "Collections.HashSetTraverse",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "ArraylistToArray",
+            "request": "launch",
+            "mainClass": "Collections.ArraylistToArray",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
+            "name": "ArraylistTraverse",
+            "request": "launch",
+            "mainClass": "Collections.ArraylistTraverse",
+            "projectName": "Java_6b254c5a"
+        },
+        {
+            "type": "java",
             "name": "PerfectNumber",
             "request": "launch",
             "mainClass": "PerfectNumber",
